@@ -1,0 +1,70 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    color: #fff;
+}
+
+form {
+    width: 100%;
+}
+
+.button {
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    flex: 1 0 auto;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(0, 184, 148, 0.8);
+}
+
+.button.small,
+button.small {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    background-color: transparent;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* .button > .material-icons, button > .material-icons {
+  margin-right: 5px;
+} */
+
+a {
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+a:visited {
+    color: inherit;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.material-icons {
+    display: flex;
+}

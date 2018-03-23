@@ -1,0 +1,40 @@
+.label {
+    color: rgba(256, 256, 256, 0.7);
+}
+
+.input {
+    font-family: "Roboto", Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 1rem 0;
+    border: none;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #ececec;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.4);
+}
+
+input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(256, 256, 256, 0.7);
+    text-transform: uppercase;
+}
+
+.input-line {
+    margin-bottom: 1rem;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.input-inline {
+    margin-right: 1rem;
+    flex: 1 1 auto;
+}
+
+.input-line > .input-inline:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,27 @@
+.successful-heading {
+    font-weight: 300;
+}
+
+.successful-image {
+    margin-top: 2rem;
+    height: 125px;
+}
+
+.successful-text {
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin: 0.25rem;
+}
+
+.successful-text a {
+    font-weight: normal;
+}
+
+.successful-text a:hover {
+    text-decoration: underline;
+}
+
+.successful-footer {
+    margin-bottom: 1rem;
+    text-align: center;
+}

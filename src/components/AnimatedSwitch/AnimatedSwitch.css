@@ -1,0 +1,18 @@
+.animated-page-wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "header" "main";
+    overflow: auto;
+}
+
+.animated-page-wrapper > header {
+    height: 60px;
+}
+
+@media (min-width: 450px) {
+    .animated-page-wrapper {
+        justify-content: center;
+    }
+}

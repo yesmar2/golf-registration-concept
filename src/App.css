@@ -1,0 +1,39 @@
+main {
+    grid-area: main;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+header > h1 {
+    flex: 1 0 auto;
+}
+
+.app {
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+        url("./images/golfer-1960998_1920.jpg") no-repeat center top fixed;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.logo {
+    height: 30px;
+}
+
+@media (min-width: 600px) {
+    main {
+        align-items: center;
+    }
+}
