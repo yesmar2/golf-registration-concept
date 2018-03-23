@@ -7,21 +7,12 @@ import Phone from "components/FormWrapper/Validations/Phone";
 
 const ContactInfoForm = () => [
     <Field
-        key={0}
-        name="HomePhone"
-        type="text"
-        component={StyledTextField}
-        componentType="phone"
-        label="Home Phone"
-        validate={[required, Phone]}
-    />,
-    <Field
         key={1}
-        name="MobilePhone"
+        name="Phone"
         type="text"
         component={StyledTextField}
         componentType="phone"
-        label="Mobile Phone"
+        label="Phone"
         validate={[required, Phone]}
     />,
     <Field
